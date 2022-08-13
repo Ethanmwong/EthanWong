@@ -1,0 +1,121 @@
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family:'Roboto',arial;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    color: #f9faf8;
+    background-color: #1F2937;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+}
+
+.header-logo {
+    margin-right: auto;
+}
+
+.header-link {
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;
+}
+
+.header-link a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 10px;
+    font-family: "Roboto", arial;
+}
+    
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+
+.aboutWebsite {
+    color: #f9faf8;
+    background-color: #1f2937;
+    padding: 90px;
+    gap: 8px;
+    display: flex;
+}
+
+.aboutWebsite button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+.aboutWebsite .picOfMe {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    
+}
+.aboutWebsite .intro {
+    width: 900px;
+    text-align: left;
+}
+
+.randomInfo {
+    font-family:'Roboto', arial;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.xtraInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+} 
+.xtraInfo .item {
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid #3882f6;
+    width: 100px;
+    height: 100px;
+}
+
+.xtraInfoWords{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-family: 'Roboto',arial;
+    font-size: 16px;
+}
+.xtraInfoWords .item {
+    width: 100px;
+    height: 100px;
+}
+
+.inspiringQuote {
+    padding: 50px;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-family: 'light italic';
+    color: #1f2937
+}
